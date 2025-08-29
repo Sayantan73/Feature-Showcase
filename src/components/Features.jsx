@@ -61,7 +61,7 @@ const features = [
       "Touch friendly for mobile.",
       "Scales beautifully on desktop.",
     ],
-    image: "https://images.unsplash.com/photo-1523473827534-86c9290b8f21?w=500&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80",
   },
 ];
 
