@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useContext } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { FeatureContext } from "../context/FeatureContext.js";
+import { FeatureContext } from "../context/FeatureContext.jsx";
 
 
 export default function FeatureShowcase() {

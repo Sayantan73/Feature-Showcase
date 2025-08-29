@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FeatureContext } from "./featureContext";
+import { FeatureContext } from "./FeatureContext.jsx";
 
 
 export default function FeatureProvider({ children }) {
