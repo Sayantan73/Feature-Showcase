@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import FeatureShowcase from './components/Features'
+import FeatureProvider from './context/FeatureProvider.jsx'
+import Feature from './pages/Feature.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
       <div>
-        <FeatureShowcase />
+      <FeatureProvider>
+        <Feature />
+      </FeatureProvider>
       </div>
     </>
   )
